@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cozinha do mano Leo</title>
+  <title>Cozinha do Leo</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
@@ -13,37 +13,43 @@
 </head>
 
 <body>
+  <!-- header- barra de menus -->
 <hader>
   <nav id="header-nav" class="navbar navbar-expand-md navbar-light">
+    <!-- logo e titulo do site-->
     <a href="index.html" class="navbar-brand">
       <div id="logo-img" class="float-left d-none d-md-block"></div>
-      <h1>Cozinha do mano Leo</h1>
+      <h1>Cozinha do Leo</h1>
       <p>
         <img src="images/star-k-logo.png" alt="certificação koshar">
           <span>certificação koshar</span>
       </p>
     </a>
+    <!-- final da logo e titulo do site-->
+    <!-- botao de menu responsivo-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar navbar-collapse" id="navbarSupportedcontent">
+    <!--final do botao responsivo-->
+    <!-- menu de opções -->
+    <div class="collapse navbar navbar-collapse ml-auto mb-auto pt-40" id="navbarSupportedcontent">
       <ul id="nav-list" class="navbar-nav ml-auto"> <!--itens do menu para a direita ml-auto-->
         <li class="nav-iten">
-          <a href="#" class="nav-link">
+          <a href="#" class="nav-link d-lg-flex flex-colunn">
             <i class="fas fa-utensils"></i><span>Menu</span>
           </a>
         </li>
         <li class="nav-iten">
-          <a href="#" class="nav-link">
+          <a href="#" class="nav-link d-lg-flex flex-colunn">
             <i class="fas fa-info"></i>sobre
           </a>
         </li>
         <li class="nav-iten">
-          <a href="#" class="nav-link">
+          <a href="#" class="nav-link d-lg-flex flex-colunn">
             <i class="fas fa-award"></i>premios
           </a>
         </li>
-        <li class="nav-item" id="phone">
+        <li class="d-none d-lg-block" id="phone">
           <a href="tel:+554797070-7070">
             <span>(47)97070-7070</span>
             <div>Fazemos Entrega</div>
@@ -51,8 +57,25 @@
         </li>
       </ul>
     </div>
+    <!--Final do menu-->
   </nav>
 </hader>
+<!-- final do header-->
+<div id="call-btn" class="d-md-block d-lg-none">
+  <a class="btn btn-primary" href="tel:+554797070-7070">
+    <i class="fas fa-phone"></i>
+    (47)97070-7070
+  </a>
+</div>
+<div id="md-deliver" class="d-md-flex d-lg-none">
+  <span class="mx-auto">* Fazemos Entregas</span>
+</div>
+
+<div id="principal" class="container">
+  <div class="jumbotron">
+    <img src="images/jumbotron_768.jpg" alt="foto do restaurante" class="img-fluid d-sm-block d-md-none">
+  </div>
+</div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
