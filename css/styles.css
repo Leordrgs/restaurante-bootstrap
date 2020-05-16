@@ -58,10 +58,6 @@ body {
   margin-right: 5px;
 }
 
-#phone {
-  margin-top: 5px;
-}
-
 #phone a {
   text-align: right;
   padding-bottom: 0;
@@ -218,6 +214,7 @@ width: 50%;
     font-size: .7em;
     letter-spacing: .1em;
     text-transform: uppercase;
+    text-align: center;
   }
   .container .jumbotron {
     background: url('../images/jumbotron_768.jpg') no-repeat;
@@ -271,9 +268,20 @@ width: 50%;
     font-size: .7em;
     letter-spacing: .1em;
     text-transform: uppercase;
+    text-align: center;
   }
   .container .jumbotron{
     padding: 0;
     margin: 30px;
+  }
+  #menu-item, #especialidades-item {
+    width: 360px;
+    margin: 0 auto 15px;
+   }
+}
+@media (max-width: 575px){
+  #menu-item, #especialidades-item {
+   width: 280px;
+   margin: 0 auto 15px;
   }
 }
